@@ -1,6 +1,6 @@
 <?php
 
-namespace thekonz\LighthouseRedisBroadcaster;
+namespace alst161\LighthouseRedisBroadcaster;
 
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Foundation\CachesConfiguration;
@@ -8,12 +8,12 @@ use Illuminate\Support\ServiceProvider;
 use Nuwave\Lighthouse\Subscriptions\BroadcastManager as BaseBroadcastManager;
 use Nuwave\Lighthouse\Subscriptions\Contracts\AuthorizesSubscriptions;
 use Nuwave\Lighthouse\Subscriptions\Contracts\StoresSubscriptions;
-use thekonz\LighthouseRedisBroadcaster\Broadcasting\BroadcastManager;
-use thekonz\LighthouseRedisBroadcaster\Broadcasting\RedisBroadcaster;
-use thekonz\LighthouseRedisBroadcaster\Console\LighthouseSubscribeCommand;
-use thekonz\LighthouseRedisBroadcaster\Contracts\Broadcaster;
-use thekonz\LighthouseRedisBroadcaster\Routing\Authorizer;
-use thekonz\LighthouseRedisBroadcaster\Storage\Manager;
+use alst161\LighthouseRedisBroadcaster\Broadcasting\BroadcastManager;
+use alst161\LighthouseRedisBroadcaster\Broadcasting\RedisBroadcaster;
+use alst161\LighthouseRedisBroadcaster\Console\LighthouseSubscribeCommand;
+use alst161\LighthouseRedisBroadcaster\Contracts\Broadcaster;
+use alst161\LighthouseRedisBroadcaster\Routing\Authorizer;
+use alst161\LighthouseRedisBroadcaster\Storage\Manager;
 
 class SubscriptionServiceProvider extends ServiceProvider
 {
