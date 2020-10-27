@@ -1,6 +1,6 @@
 <?php
 
-namespace thekonz\LighthouseRedisBroadcaster\Routing;
+namespace alst161\LighthouseRedisBroadcaster\Routing;
 
 use Illuminate\Http\Request;
 use Nuwave\Lighthouse\Subscriptions\Contracts\BroadcastsSubscriptions;
