@@ -1,11 +1,11 @@
 <?php
 
 
-namespace thekonz\LighthouseRedisBroadcaster\Broadcasting;
+namespace alst161\LighthouseRedisBroadcaster\Broadcasting;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Nuwave\Lighthouse\Subscriptions\BroadcastManager as BaseBroadcastManager;
-use thekonz\LighthouseRedisBroadcaster\Contracts\Broadcaster;
+use alst161\LighthouseRedisBroadcaster\Contracts\Broadcaster;
 
 class BroadcastManager extends BaseBroadcastManager
 {
