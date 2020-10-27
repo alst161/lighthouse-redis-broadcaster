@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thekonz\LighthouseRedisBroadcaster\Routing;
+namespace alst161\LighthouseRedisBroadcaster\Routing;
 
 
 use Illuminate\Routing\Router;
