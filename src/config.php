@@ -1,6 +1,6 @@
 <?php
 
-use thekonz\LighthouseRedisBroadcaster\Routing\SubscriptionRouter;
+use alst161\LighthouseRedisBroadcaster\Routing\SubscriptionRouter;
 
 return [
     'driver' => 'redis',
