@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thekonz\LighthouseRedisBroadcaster\Contracts;
+namespace alst161\LighthouseRedisBroadcaster\Contracts;
 
 use Illuminate\Http\Request;
 use Nuwave\Lighthouse\Subscriptions\Subscriber;
