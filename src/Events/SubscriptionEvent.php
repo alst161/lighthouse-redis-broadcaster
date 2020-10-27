@@ -1,6 +1,6 @@
 <?php
 
-namespace thekonz\LighthouseRedisBroadcaster\Events;
+namespace alst161\LighthouseRedisBroadcaster\Events;
 
 use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
