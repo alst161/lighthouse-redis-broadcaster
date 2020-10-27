@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thekonz\LighthouseRedisBroadcaster\Console;
+namespace alst161\LighthouseRedisBroadcaster\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Config\Repository;
