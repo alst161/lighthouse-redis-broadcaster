@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thekonz\LighthouseRedisBroadcaster\Storage;
+namespace alst161\LighthouseRedisBroadcaster\Storage;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Redis\Connection;
